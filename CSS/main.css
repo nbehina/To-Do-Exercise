@@ -1,0 +1,14 @@
+h1 {text-align: center;}
+section {float: left;
+         margin-left: 16%;
+}
+#to-do{
+    background-color: black;
+    color:white; 
+    padding: 3px 53px 3px 53px;
+    margin-top: 8%;  
+}
+
+aside{float: right;
+      margin-right: 16%;
+}
