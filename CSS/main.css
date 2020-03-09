@@ -1,14 +1,19 @@
 h1 {text-align: center;}
+
 section {float: left;
          margin-left: 16%;
 }
-#to-do{
+#submit{
     background-color: black;
     color:white; 
-    padding: 3px 53px 3px 53px;
-    margin-top: 8%;  
+    padding: 3px 54px 3px 54px;
+    margin-top: 24px;  
 }
 
 aside{float: right;
       margin-right: 16%;
+}
+
+.btn{
+margin:8% auto;
 }

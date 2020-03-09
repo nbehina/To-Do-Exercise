@@ -14,41 +14,35 @@
     <section>
         <h2>Add to To-Dos</h2>
         <p>Enter Tast</p>
-        <form id="add-task" action="#" method="GET">
-            <label for="enter-task">
-                <input id="enter-task" name="ener-task" type="text">
+        <form id="my-form" action="#" method="GET">
+            <label for="item">
+                <input id="item" name="item" type="text">
             </label>
         </form>
-        <button type="submit" id="to-do">
-            Add To-Do
-       </button>
-     <h2> Active To-Dos</h2>
-     <ul>
-        <form id="active-task" action="#" method="GET">
-      <li>
-        <input  type="checkbox" id="housekeeping" name="housekeeping">
-         Take out the trash
-        <lable for="housekeeping"></lable>
-      </li>
-      <li>
-        <input  type="checkbox" id="planning" name="planning">
-         Make lesson plan
-        <lable for="planning"></lable>
-        </lable>
-      </li>
-
+        <form>
+                <input id="submit" type="submit" value="Add To-Do">
         </form>
+    <h2> Active To-Dos</h2>
+    <ul id="my-list">
+      <li>
+        <input type="checkbox">
+        Trash
+        <input type="button" class="btn" value="Clear list" />
+      </li>
+      <li>
+        <input type="checkbox">
+        Milk
+        <input type="button" class="btn" value="Clear list" />
+      </li>
      </ul>
 
 
     </section>
-    <aside>
+    <aside Id=complete-list>
         <h2>Completed</h2>
         <ul>
         <li> Buy milk </li>
         </ul>
-       
-
     </aside>
     </body>
 </html>
